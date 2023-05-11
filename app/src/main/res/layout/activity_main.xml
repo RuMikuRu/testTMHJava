@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/create_route_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать маршрут" />
+
+    <Button
+        android:id="@+id/list_route_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Список маршрутов" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Редактировать маршрут" />
+</LinearLayout>
+
+
